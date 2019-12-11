@@ -32,7 +32,7 @@ export default function About() {
           <div className="p-5">
             <h2 className="display-4">What will you get in return?</h2>
             <p>
-              Besides helping a child, woman, or man that is living in the
+              Besides helping a child, woman, or man that is living on the
               pavement get temporary shelter and a warm place to sleep, you will
               also receive via email a receipt for tax deduction purposes and an
               envelope with a personal message from the person you helped.
