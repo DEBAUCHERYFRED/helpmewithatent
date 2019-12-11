@@ -46,18 +46,7 @@ export default function About() {
             <h2 className="display-4" style={{ textAlign: "center" }}>
               Help someone today!
             </h2>
-            <button
-              type="button"
-              className="btn btn-primary"
-              style={{
-                position: "absolute",
-                left: "45%",
-                borderRadius: "42px",
-                width: "10rem",
-                height: "4rem",
-                fontSize: "27px"
-              }}
-            >
+            <button type="button" className="btn btn-primary help-button">
               Help Now
             </button>
           </div>
