@@ -1,6 +1,4 @@
-Help me with a tent
-
-## Available Scripts
+## Help me with a tent
 
 In the project directory, you can run:
 
