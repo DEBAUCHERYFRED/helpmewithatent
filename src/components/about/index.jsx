@@ -35,7 +35,7 @@ export default function About() {
               Besides helping a child, woman, or man that is living on the
               pavement get temporary shelter and a warm place to sleep, you will
               also receive via email a receipt for tax deduction purposes and an
-              envelope with a personal message from the person you helped.
+              envelope with a personal message from the individual you helped.
             </p>
           </div>
         </div>
