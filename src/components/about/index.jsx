@@ -67,7 +67,11 @@ export default class About extends React.Component {
               <h2 className="display-4" style={{ textAlign: "center" }}>
                 Help someone today!
               </h2>
-              <button type="button" className="btn btn-primary help-button">
+              <button
+                type="button"
+                className="btn btn-primary help-button"
+                onClick={this.donateNow}
+              >
                 Help Now
               </button>
             </div>
