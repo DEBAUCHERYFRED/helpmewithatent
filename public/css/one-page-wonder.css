@@ -18,6 +18,10 @@ h6 {
   font-weight: 800 !important;
 }
 
+.bg-black {
+  background: black;
+}
+
 .help-button {
   position: absolute;
   left: 45%;
