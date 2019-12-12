@@ -62,9 +62,9 @@ export default class About extends React.Component {
               <p className="alignMessage">
                 Besides helping a child, woman, or man that is living on the
                 pavement get temporary shelter and a warm place to sleep, you
-                will also receive via email a receipt for tax deduction purposes
-                and an envelope with a personal message from the individual you
-                helped.
+                will also receive via email a receipt for tax deduction
+                purposes, a receipt of the purchased items, and an envelope with
+                a personal message from the individual you helped.
               </p>
             </div>
           </div>
