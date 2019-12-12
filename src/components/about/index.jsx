@@ -2,6 +2,8 @@ import React from "react";
 
 export default class About extends React.Component {
   donateNow = () => {
+    var stripe = Stripe("pk_test_flbV1w4TMRdRrtOLBWpupuvL00JFppLkqm");
+
     stripe
       .redirectToCheckout({
         items: [
