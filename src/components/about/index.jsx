@@ -1,14 +1,19 @@
+/* eslint-disable no-undef */
 import React from "react";
 
 export default class About extends React.Component {
-  donateNow = () => {
-    var stripe = Stripe("pk_test_flbV1w4TMRdRrtOLBWpupuvL00JFppLkqm");
-
+  constructor(props) {
+    super(props);
+    this.state = {};
+    this.donateNow = this.donateNow.bind(this);
+  }
+  donateNow() {
+    var stripe = new Stripe("pk_test_flbV1w4TMRdRrtOLBWpupuvL00JFppLkqm");
     stripe
       .redirectToCheckout({
         items: [
           // Replace with the ID of your SKU
-          { sku: "prod_GLeAEdLU2n93hN", quantity: 1 }
+          { sku: "sku_GLeA936Ox5q94P", quantity: 1 }
         ],
         successUrl: "https://relaxed-almeida-11f9e6.netlify.com/",
         cancelUrl: "https://relaxed-almeida-11f9e6.netlify.com/"
@@ -18,7 +23,7 @@ export default class About extends React.Component {
         // error, display the localized error message to your customer
         // using `result.error.message`.
       });
-  };
+  }
   render() {
     return (
       <div className="container">
