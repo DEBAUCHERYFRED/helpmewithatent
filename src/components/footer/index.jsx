@@ -1,11 +1,6 @@
 import React from "react";
 
 export default function Footer() {
-  const style = {
-    marginRight: "1em",
-    cursor: "pointer"
-  };
-
   return (
     <footer className="py-5 bg-black">
       <div className="container text-center">
