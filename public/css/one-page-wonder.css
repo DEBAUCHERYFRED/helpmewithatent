@@ -18,6 +18,10 @@ h6 {
   font-weight: 800 !important;
 }
 
+.alignMessage {
+  text-align: center;
+}
+
 .bg-black {
   background: black;
 }

@@ -30,8 +30,8 @@ export default class About extends React.Component {
         <div className="row align-items-center">
           <div className="col-lg-12 order-lg-1">
             <div className="p-5">
-              <h2 className="display-4">Who are we?</h2>
-              <p>
+              <h2 className="display-4 alignMessage">Who are we?</h2>
+              <p className="alignMessage">
                 We are a non-profit charity organization that helps people who
                 can't access shelter living in the streets with a tent and
                 sleeping bag.
@@ -42,8 +42,10 @@ export default class About extends React.Component {
         <div className="row align-items-center">
           <div className="col-lg-12 order-lg-1">
             <div className="p-5">
-              <h2 className="display-4">How does your contribution help?</h2>
-              <p>
+              <h2 className="display-4 alignMessage">
+                How does your contribution help?
+              </h2>
+              <p className="alignMessage">
                 Your contribution will directly go to buying a $25(tax not
                 included) tent and $15(tax not included) sleeping bag sold at
                 any local Walmart.
@@ -54,8 +56,10 @@ export default class About extends React.Component {
         <div className="row align-items-center">
           <div className="col-lg-12 order-lg-1">
             <div className="p-5">
-              <h2 className="display-4">What will you get in return?</h2>
-              <p>
+              <h2 className="display-4 alignMessage">
+                What will you get in return?
+              </h2>
+              <p className="alignMessage">
                 Besides helping a child, woman, or man that is living on the
                 pavement get temporary shelter and a warm place to sleep, you
                 will also receive via email a receipt for tax deduction purposes
