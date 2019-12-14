@@ -15,7 +15,7 @@ export class Success extends React.Component {
   componentDidMount() {
     setTimeout(() => {
       this.relocate();
-    }, 10000);
+    }, 20000);
   }
 
   componentWillUnmount() {
