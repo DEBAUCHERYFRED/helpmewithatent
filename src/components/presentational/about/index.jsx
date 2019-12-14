@@ -15,8 +15,8 @@ export default class About extends React.Component {
           // Replace with the ID of your SKU
           { sku: "sku_GLeA936Ox5q94P", quantity: 1 }
         ],
-        successUrl: "https://relaxed-almeida-11f9e6.netlify.com/",
-        cancelUrl: "https://relaxed-almeida-11f9e6.netlify.com/"
+        successUrl: "https://relaxed-almeida-11f9e6.netlify.com/success",
+        cancelUrl: "https://relaxed-almeida-11f9e6.netlify.com/error"
       })
       .then(function(result) {
         // If `redirectToCheckout` fails due to a browser or network

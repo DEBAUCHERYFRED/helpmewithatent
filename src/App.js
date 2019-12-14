@@ -1,20 +1,21 @@
-import React, { Component } from "react";
-import Header from "./components/header";
-import Footer from "./components/footer";
-import About from "./components/about";
+import React from "react";
+import { Route, Switch, withRouter } from "react-router-dom";
+import Home from "./components/container/home";
+import Success from "./components/container/success";
+import Error from "./components/container/error";
 
 import "./App.css";
 
-class App extends Component {
+class App extends React.Component {
   render() {
     return (
-      <div>
-        <Header />
-        <About />
-        <Footer />
-      </div>
+      <Switch>
+        <Route exact path="/" render={() => <Home />} />
+        <Route exact path="/error" render={() => <Error />} />
+        <Route exact path="/success" render={() => <Success />} />
+      </Switch>
     );
   }
 }
 
-export default App;
+export default withRouter(App);
