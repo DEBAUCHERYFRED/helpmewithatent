@@ -46,7 +46,7 @@ export class Error extends React.Component {
         </h2>
         <p className="alignMessage">
           We were unable to process your payment, you will be redirected to the
-          main site in a few seconds
+          main site in a few seconds. Please try again.
         </p>
       </div>
     );

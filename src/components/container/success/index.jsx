@@ -45,11 +45,12 @@ export class Success extends React.Component {
           Your donation was successfully processed!{" "}
         </h2>
         <p className="alignMessage">
-          Thank you! Your receipt for tax deduction purposes should be sent to
-          you in a couple of minutes via email, you will be redirected to the
-          main site in a few seconds. You will receive the receipt from Walmart
-          and the personal message from the person you helped in your email
-          after the tent and sleeping has been purchased and given to someone!
+          Thank you today you saved someones life! Your receipt for tax
+          deduction purposes should be sent to you in a couple of minutes via
+          email, you will be redirected to the main site in a few seconds. You
+          will receive the receipt from Walmart and the personal message from
+          the person you helped in your email after the tent and sleeping has
+          been purchased and given to someone!
         </p>
       </div>
     );
