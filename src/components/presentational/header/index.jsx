@@ -6,7 +6,7 @@ export default function Header() {
       <div className="masthead-content">
         <div className="container">
           <h1 className="masthead-heading mb-0">
-            Help a homeless child, woman, or man with a tent and sleeping bag.
+            Help a homeless child, woman, or man with a meal.
           </h1>
           <h2 className="masthead-subheading mb-0">
             We are a 501c3 non-profit organization. Scroll down to learn how you
